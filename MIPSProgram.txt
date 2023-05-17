@@ -1,0 +1,5 @@
+DIV $T1, $t2, $v0
+lw $s0,0($v0)
+sw $t0, 32($s1)
+addi $t0, $s1, 42
+j MY_LABEL
